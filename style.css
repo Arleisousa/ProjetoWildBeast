@@ -17,10 +17,9 @@ a {
 }
 
 img {
-    max-width: 100%;
     display: block;
-    border-radius: 4px;
-    
+    max-width: 100%;
+    border-radius: 4px;   
 }
 
 /*Grid Geral*/
@@ -120,6 +119,10 @@ img {
     align-self: end;
 } 
 
+.imagem-3 {
+    width: 100%;
+    height: auto; 
+}
 
 /*anuncios*/
 .anuncios {
@@ -194,6 +197,41 @@ p {
     border-radius: 0px 0px 5px 5px;
     padding: 5px 0;
 }
+
+.destaque {
+    font-size: 0.900rem;
+    color: #4B86FB;
+    max-width: 16rem;
+}
+
+.citacao, .atributos {
+    align-self: start;
+    padding: 30px;
+    border-radius: 4px;
+    background: linear-gradient(to right, #0154FA, #4B86FB);;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+}
+
+.citacao p {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.atributos li {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25rem;
+    padding: 15px;
+}
+
+.atributos li + li {
+    border-top: 2px solid white;
+}
+
 
 /*footer*/
 .footer {
